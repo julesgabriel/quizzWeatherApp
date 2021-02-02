@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import axios from 'axios'
+import Loader from "react-loader-spinner"
 
 const api_url = process.env.REACT_APP_API_URL
 const api_key = process.env.REACT_APP_API_KEY
@@ -57,7 +58,10 @@ export default function Meteo() {
                                  alt={meteo.town + " icon"}/>
                         </div>
                         :
-                        "pas tableau"
+                        <Loader
+                            type="Rings"
+                            color="black"
+                        />
                 }
             </h1>
         </div>
