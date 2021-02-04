@@ -8,7 +8,7 @@ import {
 import FirstQuizz from "../../pages/FirstQuizz"
 import SecondQuizz from "../../pages/SecondQuizz"
 import ThirdQuizz from "../../pages/ThirdQuizz"
-import Meteo from "../meteo"
+import Meteo from "../Meteo"
 
 export default function Header() {
     return (

@@ -1,7 +1,6 @@
 import './App.scss';
-import Meteo from "./components/meteo";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import Header from "./components/header/header";
+import Header from "./components/header/Header";
 
 export default function App() {
   return (

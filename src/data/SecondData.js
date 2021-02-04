@@ -1,0 +1,88 @@
+export const QuizzNumberTwo =
+    {
+        title: "Quizz Orthographe",
+        description: "Testez vos connaissances sur ce quizz d'Orthographe",
+        questions: [
+            {
+                id: 1,
+                label: "Quelle est la bonne définition pour le mot suivant : Tâche",
+                logic: "First",
+                correctAnswer: "Les choses que l'on a à faire",
+                wrongAnswerOne: "Ce qui est sale",
+                wrongAnswerTwo: "Je sais pas",
+            },
+            {
+                id: 2,
+                label: "Un tentacule ou une tentacule?",
+                logic: "Second",
+                correctAnswer: "Un tentacule, c'est masculin",
+                wrongAnswerOne: "Une tentacule!",
+                wrongAnswerTwo: "On dit les deux",
+            },
+            {
+                id: 3,
+                label: "Le wifi ou la Wifi?",
+                logic: "Third",
+                correctAnswer: "Le Wifi",
+                wrongAnswerOne: "La Wifi",
+                wrongAnswerTwo: "Il est non-binaire",
+            },
+            {
+                id: 4,
+                label: "Pain ou Chocolatine ?",
+                logic: "Fourth",
+                correctAnswer: "On accepte toutes les religions",
+                wrongAnswerOne: "Pain au chocolat",
+                wrongAnswerTwo: "Chocolatine",
+            },
+            {
+                id: 5,
+                label: "Autant ou Au temps pour moi ?",
+                logic: "Fifth",
+                correctAnswer: "Autant",
+                wrongAnswerOne: "Au temps",
+                wrongAnswerTwo: "Oten pour mwa",
+            },
+            {
+                id: 6,
+                label: "Autant ou Au temps pour moi ?",
+                logic: "Sixth",
+                correctAnswer: "Autant",
+                wrongAnswerOne: "Au temps",
+                wrongAnswerTwo: "Oten pour mwa",
+            },
+            {
+                id: 7,
+                label: "Comment écrit-on le syndrome qu'ont les gens lorsqu'ils ont du mal à écrire ?",
+                logic: "Seventh",
+                correctAnswer: "Dyslexie",
+                wrongAnswerOne: "Disleksie",
+                wrongAnswerTwo: "Dislexye",
+            },
+            {
+                id: 8,
+                label: "Quel est le mot le plus long en Français (hors mots scientifiques)",
+                logic: "Eighth",
+                correctAnswer: "Antigouvernementalisation",
+                wrongAnswerOne: "Anticonstitutionnellement",
+                wrongAnswerTwo: "Wapiti",
+            },
+            {
+                id: 9,
+                label: "Quel est le mot le plus fort au Scrabble ?",
+                logic: "Nineth",
+                correctAnswer: "Les deux",
+                wrongAnswerOne: "Whiskey",
+                wrongAnswerTwo: "Whiskys",
+            },
+            {
+                id: 10,
+                label: "prosélytisme, prosélitisme ou proxelitisme",
+                logic: "Tenth",
+                correctAnswer: "prosélytisme",
+                wrongAnswerOne: "prosélitisme",
+                wrongAnswerTwo: "proxelitisme",
+            },
+
+        ]
+    }
