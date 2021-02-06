@@ -3,11 +3,11 @@ import {QuizzNumberTwo} from "../data/SecondData";
 
 export default function SecondQuizz() {
     return (
-        <main>
+        <main className="container">
             {
-                <div>
+                <div className="quizz-header">
                     <h1>{QuizzNumberTwo.title}</h1>
-                    <span>{QuizzNumberTwo.description}</span>
+                    <span>{QuizzNumberTwo.description} :</span>
                 </div>
             }
             <br/>

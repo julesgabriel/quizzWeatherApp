@@ -47,13 +47,13 @@ export default function Meteo() {
     }
 
     return (
-        <div>
+        <div className="container homepage">
             <h1>
                 {
                     typeof (meteo) === "object"
                         ?
                         <div>
-                            <h1>{"A " + meteo.town + ", il fait " + Math.ceil(meteo.temperature) + "°C"}</h1>
+                            <h2>{"A " + meteo.town + ", il fait " + Math.ceil(meteo.temperature) + "°C"}</h2>
                             <span><strong>{meteo.weather}</strong></span>
                             <img src={"http://openweathermap.org/img/wn/" + meteo.icon + ".png"}
                                  alt={meteo.town + " icon"}/>

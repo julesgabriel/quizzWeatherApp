@@ -1,14 +1,14 @@
 import {Quizz} from "../components/Quizz";
 import {QuizzNumberThree} from "../data/ThirdData";
 
-export default function FirstQuizz() {
+export default function ThirdQuizz() {
     console.log(QuizzNumberThree)
     return (
-        <main>
+        <main className="container">
             {
-                <div>
+                <div className="quizz-header">
                     <h1>{QuizzNumberThree.title}</h1>
-                    <span>{QuizzNumberThree.description}</span>
+                    <span>{QuizzNumberThree.description} :</span>
                 </div>
             }
             <br/>

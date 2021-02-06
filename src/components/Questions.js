@@ -21,13 +21,13 @@ export const Questions = (props) => {
         const array = [element.correctAnswer, element.wrongAnswerOne, element.wrongAnswerTwo]
         const myShuffledArray = shuffle(array);
         return (
-            <div key={index}>
+            <div className="questions" key={index}>
                 <h3>{element.label}</h3>
                 {
                     myShuffledArray.map((el, i) => {
                         return (
                             <div>
-                                {generateAnswersLetters(i) + " |"}
+                                <span>{generateAnswersLetters(i) + " | "}</span>
                                 <input type="radio" id="A" name={element.logic} value={generateAnswersLetters(i)}/>
                                 <label htmlFor={generateAnswersLetters(index)}>{el}</label>
                             </div>
