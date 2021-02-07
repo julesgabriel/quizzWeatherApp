@@ -1,10 +1,12 @@
-$bg-site-color: #1b262c;
-$header-bg-color: #0f4c75;
-$link-color: #bbe1fa;
-$link-color-h: orange;
+
+$website-bg-color: #0B0C10;
+$link-nav-color: #66FCF1;
+$text-color: #C5C6C7;
+$website-color-alt: #1F2833;
+$white-text: #F5F5F5;
 
 body{
-  background-color: $bg-site-color;
+  background-color: $website-bg-color;
   margin: unset;
   main{
     padding-top: 80px;
@@ -15,7 +17,7 @@ body{
 }
 
 nav {
-  background-color: $header-bg-color;
+  background-color: $website-color-alt;
   position: fixed;
   top:0;
   left: 0;
@@ -24,7 +26,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 2px solid #bbe1fa;
+  border-bottom: 2px solid $link-nav-color;
 
   ul{
     display: flex;
@@ -38,18 +40,18 @@ nav {
   }
   a{
     text-decoration: none;
-    color: $link-color;
+    color: $white-text;
     font-size: 16px;
     text-transform: uppercase;
   }
   a:hover{
-    color: $link-color-h;
+    color: $link-nav-color;
   }
 }
 
 .quizz-header{
 
-  h1, span{ color: white; }
+  h1, span{ color: $text-color; }
 
   h1{
     text-align: center;
@@ -69,10 +71,7 @@ nav {
 }
 
 .questions{
-  h3, label, span{ color: white; }
-  h3{}
-  input{}
-  label{}
+  h3, label, span{ color:$text-color; }
   span{
     text-transform: uppercase;
   }
@@ -80,5 +79,5 @@ nav {
 
 .homepage{
   padding-top: 80px;
-  h1{ color: white;}
+  h1{ color: $text-color;}
 }
