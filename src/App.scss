@@ -27,6 +27,7 @@ body {
 .container {
   padding-left: 20vw;
   padding-right: 20vw;
+
   .content_text--color {
     color: $text-color;
 
@@ -37,7 +38,6 @@ body {
 }
 
 
-
 @media (max-width: 767.9px) {
   .container {
     padding-left: 15px;
@@ -46,6 +46,10 @@ body {
 }
 
 .questions {
+  &--correct {
+    background: $green-bg;
+  }
+
   h3, label, span {
     color: $text-color;
   }
@@ -60,6 +64,23 @@ body {
   padding-top: 80px;
 
   h1 {
+    color: $text-color;
+  }
+}
+
+.disable {
+  pointer-events: none;
+}
+
+.button {
+  margin-top: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  background: $link-nav-color;
+  transition: 0.2s all;
+  &:hover{
+    background: $website-color-alt;
     color: $text-color;
   }
 }

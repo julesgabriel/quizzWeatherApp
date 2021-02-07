@@ -12,7 +12,6 @@ export default function FirstQuizz(){
             }
             <br/>
             <Quizz data={QuizzNumberOne}/>
-
         </main>
     )
 }
