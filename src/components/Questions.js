@@ -44,9 +44,12 @@ export const Questions = (props) => {
                 if (parseInt(element.value) === AnswerQuizz) {
                     idDiv.classList.add('questions--correct')
                     for (let el of targetedDiv) {
+                        idDiv.classList.remove('questions--wrong')
                         el.classList.add('disable')
                     }
                     setScore(score + 1)
+                } else {
+                    idDiv.classList.add('questions--wrong')
                 }
             }
         }

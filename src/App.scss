@@ -46,8 +46,24 @@ body {
 }
 
 .questions {
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  &--correct, &--wrong{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 16px;
+  }
+
   &--correct {
     background: $green-bg;
+  }
+
+  &--wrong{
+    background: $red-bg;
   }
 
   h3, label, span {
@@ -79,6 +95,7 @@ body {
   border: none;
   background: $link-nav-color;
   transition: 0.2s all;
+  border-radius: 4px;
   &:hover{
     background: $website-color-alt;
     color: $text-color;
