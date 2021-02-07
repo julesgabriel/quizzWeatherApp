@@ -16,7 +16,6 @@ export default function Meteo() {
     async function getLocation() {
         if (!fetched) {
             if (navigator.geolocation) {
-                console.log('prefetch')
                 navigator.geolocation.getCurrentPosition((position) => {
                     fetchURl(position.coords.latitude, position.coords.longitude)
                 }, error);
