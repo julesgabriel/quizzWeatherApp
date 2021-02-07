@@ -61,10 +61,26 @@ export default function Meteo() {
                         :
                         <Loader
                             type="Rings"
-                            color="black"
+                            color="#66FCF1"
                         />
                 }
             </h1>
+            <div className="content_text--color">
+                <h2> Bienvenue sur notre projet! <br/></h2>
+                <p>
+                    Nous espérons tout d'abord qu'il fait beau chez vous (de toute façon on est confinés)!
+                    On vous a concocter trois quizz
+                </p>
+                <ul>
+                    <li className="list--nostyle">Le premier sera un quizz sur les multiplications</li>
+                    <li className="list--nostyle">Le second sera un quizz sur l'orthographe</li>
+                    <li className="list--nostyle">Le dernier sera un quizz sur la géographie</li>
+                </ul>
+                <br/>
+                <p>
+                    Préparez vos cahiers de primaire parce que ça va être compliqué!
+                </p>
+            </div>
         </div>
     )
 }

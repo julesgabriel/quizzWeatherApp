@@ -2,7 +2,6 @@ import {Quizz} from "../components/Quizz";
 import {QuizzNumberOne} from "../data/FirstData";
 
 export default function FirstQuizz(){
-    console.log(QuizzNumberOne)
     return(
         <main className="container">
             {
@@ -13,6 +12,7 @@ export default function FirstQuizz(){
             }
             <br/>
             <Quizz data={QuizzNumberOne}/>
+
         </main>
     )
 }

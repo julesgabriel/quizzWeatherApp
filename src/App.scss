@@ -1,14 +1,10 @@
+@import "style/global/variables";
 
-$website-bg-color: #0B0C10;
-$link-nav-color: #66FCF1;
-$text-color: #C5C6C7;
-$website-color-alt: #1F2833;
-$white-text: #F5F5F5;
-
-body{
+body {
   background-color: $website-bg-color;
   margin: unset;
-  main{
+
+  main {
     padding-top: 80px;
     padding-left: 15px;
     padding-right: 15px;
@@ -16,68 +12,54 @@ body{
   }
 }
 
-nav {
-  background-color: $website-color-alt;
-  position: fixed;
-  top:0;
-  left: 0;
-  height: 70px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 2px solid $link-nav-color;
 
-  ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding-inline-start: unset;
-  }
-  li{
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  a{
-    text-decoration: none;
-    color: $white-text;
-    font-size: 16px;
-    text-transform: uppercase;
-  }
-  a:hover{
-    color: $link-nav-color;
-  }
-}
+.quizz-header {
 
-.quizz-header{
+  h1, span {
+    color: $text-color;
+  }
 
-  h1, span{ color: $text-color; }
-
-  h1{
+  h1 {
     text-align: center;
   }
 }
 
-.container{
+.container {
   padding-left: 20vw;
   padding-right: 20vw;
+  .content_text--color {
+    color: $text-color;
+
+    .list--nostyle {
+      list-style: none;
+    }
+  }
 }
 
+
+
 @media (max-width: 767.9px) {
-  .container{
+  .container {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-.questions{
-  h3, label, span{ color:$text-color; }
-  span{
+.questions {
+  h3, label, span {
+    color: $text-color;
+  }
+
+  span {
     text-transform: uppercase;
   }
 }
 
-.homepage{
+.homepage {
+  text-align: center;
   padding-top: 80px;
-  h1{ color: $text-color;}
+
+  h1 {
+    color: $text-color;
+  }
 }

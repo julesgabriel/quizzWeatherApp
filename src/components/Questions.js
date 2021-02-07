@@ -17,6 +17,8 @@ export const Questions = (props) => {
         }
     }
 
+
+
     const QuizzQuestions = props.data.questions.map((element, index) => {
         const array = [element.correctAnswer, element.wrongAnswerOne, element.wrongAnswerTwo]
         const myShuffledArray = shuffle(array);
@@ -34,7 +36,6 @@ export const Questions = (props) => {
                         )
                     })
                 }
-
             </div>
         )
     });
